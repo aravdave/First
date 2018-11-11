@@ -1,0 +1,31 @@
+/* Arav Dave
+ * 10/7/2018
+ * Class 3
+ * Program 9 CubeRunner
+ */
+
+public class CubeRunner {
+
+	public static void main(String[] args) {
+			
+		//object instantiation
+		Cube test = new Cube();
+		
+		//calling methods for the first example
+		test.setSide(112);
+		test.calculateSurfaceArea();
+		test.calculateVolume();
+		System.out.println();
+		
+		//calling methods for the second example
+		test.setSide(42);
+		test.calculateSurfaceArea();
+		test.calculateVolume();
+		System.out.println();
+		
+		//calling methods for the third example
+		test.setSide(55);
+		test.calculateSurfaceArea();
+		test.calculateVolume();
+	}
+}
